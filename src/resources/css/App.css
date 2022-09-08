@@ -1,0 +1,72 @@
+:root {
+  --main-red: #980026;
+  --main-blue: #0267c1;
+  --main-white-background: #ffeeee;
+}
+
+@font-face {
+  font-family: mainFont;
+  src: url('../fonts/main-font.ttf');
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  ;
+  background-color: var(--main-white-background);
+}
+
+p {
+  font-size: small;
+}
+
+.hero-title {
+  font-family: mainFont;
+}
+
+.row {
+  /* border: 1px black solid; */
+}
+
+.medicode-title>.first {
+  color: var(--main-red);
+}
+
+.medicode-title>.second {
+  color: var(--main-blue);
+}
+
+.tutorial-1-subheading>p {
+  font-weight: bold;
+}
+
+section {
+  background-color: #dfeefc;
+
+}
+
+section:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+li {
+  font-size: 1rem;
+}
+
+.cellTitle {
+  font-weight: bolder;
+}
+
+
+#output {
+  background-color: #c6faba;
+}
+
+#err-div {
+  font-size: 0.8rem;
+  color: red;
+}
+
+#btnRun {
+  opacity: 100% !important;
+  ;
+}
