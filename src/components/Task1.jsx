@@ -1,7 +1,7 @@
 import React from 'react'
 import PyReplComponent from './PyReplComponent'
 
-const Task1 = ({ }) => {
+const Task1 = () => {
     return (
         <>
             <div class="row">

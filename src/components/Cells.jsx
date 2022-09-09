@@ -1,5 +1,4 @@
 import React from 'react'
-import content from '../content'
 
 const Cells = ({ toShow, sectionName, content }) => {
 
