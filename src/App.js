@@ -18,9 +18,9 @@ function App() {
       <HeroHead />
 
       <Cells content={content.LearningObjectives} toShow={<LearningObjectives content={content.LearningObjectives} />} sectionName='LearningObjectives' />
-      <Cells content={content.Task0} toShow={<Task0 />} sectionName='Task0' />
-      <Cells content={content.Task1} toShow={<Task1 />} sectionName='Task1' />
-      <Cells content={content.Task2} toShow={<Task2 />} sectionName='Task2' />
+      <Cells content={content.Task0} toShow={<Task0 task={content.Task0.title}/>} sectionName='Task0' />
+      <Cells content={content.Task1} toShow={<Task1 task={content.Task1.title}/>} sectionName='Task1' />
+      <Cells content={content.Task2} toShow={<Task2 task={content.Task2.title}/>} sectionName='Task2' />
 
 
 

@@ -1,7 +1,6 @@
 import React from 'react'
-import PyReplComponent from './PyReplComponent'
 
-const Task2 = ({ }) => {
+const Task2 = ({task}) => {
     return (
         <>
             <div class="row explanationRow">
@@ -37,7 +36,10 @@ const Task2 = ({ }) => {
                     </details>
                 </div>
                 <div className="col">
-                    <PyReplComponent/>
+                    <py-repl id={`my-repl2`} auto-generate="false" std-out="output2" std-err="err-div2">
+                    </py-repl>
+                    <div id={`output2`} class=""></div>
+                    <div id={`err-div2`}></div>
                 </div>
             </div>
         </>
