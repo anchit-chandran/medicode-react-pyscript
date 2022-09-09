@@ -9,8 +9,14 @@ const content = {
             "Utilise f-strings",
             "Apply knowledge of syntax and variables to create basic programs",]
     },
+    'Task0': {
+        'title' : '🐍 Python Syntax and Variables'
+    },
     'Task1': {
-        'title': '🐍 Python Syntax and Variables'
+        'title': '📖 Hello World!'
+    },
+    'Task2' : {
+        'title' : '📖 The print() statement'
     }
 }
 

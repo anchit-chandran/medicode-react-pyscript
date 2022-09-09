@@ -52,8 +52,14 @@ li {
   font-size: 1rem;
 }
 
+
+
 .cellTitle {
   font-weight: bolder;
+}
+
+.cellMainCol {
+  overflow-y: hidden;
 }
 
 
@@ -65,6 +71,7 @@ li {
   font-size: 0.8rem;
   color: red;
 }
+
 
 #btnRun {
   opacity: 100% !important;
