@@ -26,6 +26,7 @@ const Task2 = ({ task }) => {
             </div>
             <div className="row tasksRow">
                 <div className="col-lg-6">
+                    <h5>✍ Task 1</h5>
                     <ol>
                         <li><p><input type="checkbox" /> Use the <code>print()</code> function to print the message <code>&quot;Hello, my name is NAME&quot;</code> where <code>NAME</code> is your name.</p></li>
                     </ol>

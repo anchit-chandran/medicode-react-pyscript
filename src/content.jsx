@@ -17,7 +17,10 @@ const content = {
     },
     'Task2' : {
         'title' : '📖 The print() statement'
-    }
+    },
+    'Task3' : {
+        'title' : '📖 Comments'
+    },
 }
 
 export default content

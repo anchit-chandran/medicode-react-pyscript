@@ -4,7 +4,7 @@ import MainLogo from '../resources/imgs/medicode-logo-main.svg'
 
 const HeroHead = () => {
     return (
-        <div class="row hero-main-row">
+        <div class="row hero-main-row vh-100 align-items-center">
             <div class="col">
                 <div class="px-4 py-5 my-5 text-center">
                     <img class="d-block mx-auto mb-4" src={MainLogo} alt="" width="100"
