@@ -33,7 +33,7 @@ print('This code will run!')
             <div className="row tasksRow">
                 <div className="col-lg-6">
                     <h4>✍ Task 1</h4>
-                    <p>In the code below, you can see a bunch of random text which means the code doesn&#39;t work. Let&#39;s fix it:</p>
+                    <p>The code below doesn't work. Let&#39;s fix it:</p>
                     <SyntaxHighlighter language="python" style={dracula}>
                         {
                             `hi
@@ -58,17 +58,19 @@ with Albert and Anchit!
 
                         <summary><font color='red'><b>Click&nbsp;for&nbsp;SOLUTION</b></font></summary>
 
-                        <code>python
-                            # hi
+                        <SyntaxHighlighter language="python" style={dracula}>
+                            {
+                                `# hi
 
-                            # welcome to
-
-                            # Coding for Medics
-
-                            # with Albert and Anchit!
-
-                            print(&quot;Well done! You&#39;re beginning to learn how to properly write code!&quot;)</code>
-
+# welcome to
+                                
+# Coding for Medics
+                                
+# with Albert and Anchit!
+                                
+print("Well done! You're beginning to learn how to properly write code!")`
+                            }
+                        </SyntaxHighlighter>
                     </details>
                 </div>
                 <div className="col">
