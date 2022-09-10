@@ -41,9 +41,7 @@ print('This code will run!')
 welcome to
                             
 Coding for Medics
-                            
-with Albert and Anchit!
-                            
+                                                   
 # print("Well done! You're beginning to learn how to properly write code!")`
                         }
                     </SyntaxHighlighter>
@@ -65,8 +63,6 @@ with Albert and Anchit!
 # welcome to
                                 
 # Coding for Medics
-                                
-# with Albert and Anchit!
                                 
 print("Well done! You're beginning to learn how to properly write code!")`
                             }

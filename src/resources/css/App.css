@@ -23,9 +23,10 @@ p {
   font-family: mainFont;
 }
 
-.row {
-  /* border: 1px black solid; */
-}
+/* .row {
+  border: 1px black solid;
+} 
+*/
 
 .medicode-title>.first {
   color: var(--main-red);
