@@ -32,7 +32,7 @@ print('This code will run!')
             </div >
             <div className="row tasksRow">
                 <div className="col-lg-6">
-                    <h4>✍ Task 1</h4>
+                    <h5>✍ Task 1</h5>
                     <p>The code below doesn't work. Let&#39;s fix it:</p>
                     <SyntaxHighlighter language="python" style={dracula}>
                         {

@@ -21,6 +21,9 @@ const content = {
     'Task3' : {
         'title' : '📖 Comments'
     },
+    'Task4' : {
+        'title' : '📖 Mathematical Operations'
+    },
 }
 
 export default content
