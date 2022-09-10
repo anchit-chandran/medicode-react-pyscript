@@ -33,8 +33,22 @@ print('This code will run!')
             <div className="row tasksRow">
                 <div className="col-lg-6">
                     <h4>✍ Task 1</h4>
-                    <p>In the coding cell below, you can see a bunch of random text which means the code doesn&#39;t work. Let&#39;s fix it:</p>
+                    <p>In the code below, you can see a bunch of random text which means the code doesn&#39;t work. Let&#39;s fix it:</p>
+                    <SyntaxHighlighter language="python" style={dracula}>
+                        {
+                            `hi
+
+welcome to
+                            
+Coding for Medics
+                            
+with Albert and Anchit!
+                            
+# print("Well done! You're beginning to learn how to properly write code!")`
+                        }
+                    </SyntaxHighlighter>
                     <ol>
+                        <li><p><input type="checkbox" /> Copy and paste the code into the editor.</p></li>
                         <li><p><input type="checkbox" /> Comment out the first line by typing <code>#</code> at the beginning.</p></li>
                         <li><p><input type="checkbox" /> Comment out the remaining non-code text at once by highlighting and using <kbd>Ctrl</kbd> + <kbd>/</kbd> (or <code>CMD + /</code> on Macs).</p></li>
                         <li><p><input type="checkbox" /> Uncomment the final <code>print()</code> statement.</p></li>
@@ -58,9 +72,9 @@ print('This code will run!')
                     </details>
                 </div>
                 <div className="col">
-                    <py-repl>
-print('ehlo')
-print('h')
+                    <py-repl id={`my-repl3`} auto-generate="true" std-out="output3" std-err="err-div3">
+                        print('ehlo')
+                        print('h')
                     </py-repl>
                     <div id={`output3`} class=""></div>
                     <div id={`err-div3`}></div>
