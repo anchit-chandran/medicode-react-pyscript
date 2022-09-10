@@ -9,7 +9,7 @@ const Task4 = ({ task }) => {
                 <div className="col">
                     You can use Python like a calculator!
 
-                    Much of coding often comes down to maths, especially in medicine. In this exercise, we will cover the important arithmetic operators.
+                    In this exercise, we will cover the important arithmetic operators.
                     <SyntaxHighlighter language="python" style={dracula}>
                         {`# Adding
 2 + 2
