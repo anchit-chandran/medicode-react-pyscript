@@ -40,7 +40,7 @@ p {
 }
 
 section {
-  background-color: #dfeefc;
+  background-color: #F2F2F2;
 
 }
 
@@ -76,4 +76,8 @@ li {
 #btnRun {
   opacity: 100% !important;
   ;
+}
+
+code {
+  color:#0309A9;
 }

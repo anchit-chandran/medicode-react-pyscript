@@ -1,15 +1,25 @@
-import React from 'react'
+import React from 'react';
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { dracula } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
-const Task2 = ({task}) => {
+const Task2 = ({ task }) => {
     return (
         <>
             <div class="row explanationRow">
                 <div class="col">
                     <p>To get our program to print out text, we actually need to use the in-built <code>print()</code> function.</p>
-                    <pre><code class="lang-python"><span class="hljs-function"><span class="hljs-title">print</span><span class="hljs-params">(<span class="hljs-string">'Hello world!'</span>)</span></span>
-                    </code></pre>
-                    <pre><code><span class="hljs-meta">&gt;&gt;</span>&gt; Hello world!
-                    </code></pre><ul>
+                    <SyntaxHighlighter language="python" style={dracula}>
+                        {
+                            "print('Hello MediCode!')"
+
+                        }
+                    </SyntaxHighlighter>
+                    <SyntaxHighlighter language="python" style={dracula}>
+                        {
+                            ">>>Hello MediCode!"
+                        }
+                    </SyntaxHighlighter>
+                    <ul>
                         <li><p>This function takes in any text surrounded by <code>&#39; &#39;</code> or <code>&quot; &quot;</code> and prints the message to the screen.</p></li>
                     </ul>
                 </div>
@@ -30,13 +40,17 @@ const Task2 = ({task}) => {
 
                         <summary><font color='red'><b>Click&nbsp;for&nbsp;SOLUTION</b></font></summary>
 
-                        <code>python
-                            print(&#39;Hello, my name is Anchit&#39;)</code>
+                        <SyntaxHighlighter language="python" style={dracula}>
+                            {
+                                "print(\"Hello, my name is Anchit\")"
+
+                            }
+                        </SyntaxHighlighter>
 
                     </details>
                 </div>
                 <div className="col">
-                    <py-repl id={`my-repl2`} auto-generate="false" std-out="output2" std-err="err-div2">
+                    <py-repl id={`my-repl2`} auto-generate="true" std-out="output2" std-err="err-div2">
                     </py-repl>
                     <div id={`output2`} class=""></div>
                     <div id={`err-div2`}></div>
