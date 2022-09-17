@@ -11,6 +11,8 @@ import Task1 from './components/Task1';
 import Task2 from './components/Task2';
 import Task3 from './components/Task3';
 import Task4 from './components/Task4';
+import Task5 from './components/Task5';
+import Task6 from './components/Task6';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
       <Cells content={content.Task2} toShow={<Task2 task={content.Task2.title}/>} sectionName='Task2' />
       <Cells content={content.Task3} toShow={<Task3 task={content.Task3.title}/>} sectionName='Task3' />
       <Cells content={content.Task4} toShow={<Task4 task={content.Task4.title}/>} sectionName='Task4' />
+      <Cells content={content.Task5} toShow={<Task5 task={content.Task5.title}/>} sectionName='Task5' />
+      <Cells content={content.Task6} toShow={<Task6 task={content.Task6.title}/>} sectionName='Task6' />
 
 
     </div >

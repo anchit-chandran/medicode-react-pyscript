@@ -35,7 +35,7 @@ const Task4 = ({ task }) => {
                         <li><p><input type="checkbox" /> On Line 1, print out 300 x 53.</p></li>
                         <li><p><input type="checkbox" /> On Line 2, print out 23 + 40 x 8.</p></li>
                         <li><p><input type="checkbox" /> On Line 3, print out the square root of 25.</p></li>
-                        <li><p><input type="checkbox" /> On Line 4, print out 39 - 50 + 12 x 39 ÷ ( 5 to the power of 4 ).</p></li>
+                        <li><p><input type="checkbox" /> On Line 4, print out 39 - 50 + 12 x 39 ÷ (5 to the power of 4).</p></li>
                     </ol>
                     <details>
 
@@ -50,10 +50,10 @@ print(39-50+12*39/(5**4))`}
                     </details>
                 </div>
                 <div className="col">
-                    <py-repl id={`my-repl3`} auto-generate="true" std-out="output3" std-err="err-div3">
+                    <py-repl id={`my-repl4`} auto-generate="true" std-out="output4" std-err="err-div4">
                     </py-repl>
-                    <div id={`output3`} class=""></div>
-                    <div id={`err-div3`}></div>
+                    <div id={`output4`} class=""></div>
+                    <div id={`err-div4`}></div>
                 </div>
             </div>
         </>

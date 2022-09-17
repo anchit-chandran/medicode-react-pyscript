@@ -82,3 +82,12 @@ li {
 code {
   color:#0309A9;
 }
+
+.explanationRow {
+  padding: 2% 1%;
+}
+
+.diagBody {
+  background-color: #4a0013;
+  color: white;
+}

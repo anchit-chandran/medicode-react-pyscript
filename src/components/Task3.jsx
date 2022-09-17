@@ -71,8 +71,7 @@ print("Well done! You're beginning to learn how to properly write code!")`
                 </div>
                 <div className="col">
                     <py-repl id={`my-repl3`} auto-generate="true" std-out="output3" std-err="err-div3">
-                        print('ehlo')
-                        print('h')
+                       
                     </py-repl>
                     <div id={`output3`} class=""></div>
                     <div id={`err-div3`}></div>

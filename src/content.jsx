@@ -24,6 +24,12 @@ const content = {
     'Task4' : {
         'title' : '📖 Mathematical Operations'
     },
+    'Task5' : {
+        'title' : '📖 Variable Assignment'
+    },
+    'Task6' : {
+        'title' : '📖 Variable Naming Conventions'
+    },
 }
 
 export default content
