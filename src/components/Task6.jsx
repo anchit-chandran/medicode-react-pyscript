@@ -4,8 +4,9 @@ import { dracula } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 import VariablesImg from '../resources/imgs/variables.png'
 import Diagram from './Diagram';
+import PyReplComponent from './PyReplComponent';
 
-const Task6 = ({ task }) => {
+const Task6 = ({ replNum, task }) => {
     const content = (<ul>
         <li><p>On the left of the <code>=</code> sign, you <em>define</em> the variable name - in this case, our variable is called <code>name</code>.</p></li>
         <li><p>On the right of the <code>=</code> sign, you write the value you want to <em>assign</em> to the variable  - in this case, the string <code>&#39;Anchit&#39;</code>.</p></li>
@@ -86,11 +87,7 @@ print(gmc)`}
                     </details>
                 </div>
                 <div className="col">
-                    <py-repl id={`my-repl5`} auto-generate="true" std-out="output5" std-err="err-div5">
-
-                    </py-repl>
-                    <div id={`output5`} class=""></div>
-                    <div id={`err-div5`}></div>
+                    <PyReplComponent replNum={replNum}></PyReplComponent>
                 </div>
             </div>
         </>

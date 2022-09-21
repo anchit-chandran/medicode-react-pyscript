@@ -1,8 +1,9 @@
 import React from 'react';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/hljs';
+import PyReplComponent from './PyReplComponent';
 
-const Task4 = ({ task }) => {
+const Task4 = ({ replNum, task }) => {
     return (
         <>
             <div class="row explanationRow">
@@ -50,10 +51,7 @@ print(39-50+12*39/(5**4))`}
                     </details>
                 </div>
                 <div className="col">
-                    <py-repl id={`my-repl4`} auto-generate="true" std-out="output4" std-err="err-div4">
-                    </py-repl>
-                    <div id={`output4`} class=""></div>
-                    <div id={`err-div4`}></div>
+                    <PyReplComponent replNum={replNum}></PyReplComponent>
                 </div>
             </div>
         </>

@@ -30,6 +30,9 @@ const content = {
     'Task6' : {
         'title' : '📖 Variable Naming Conventions'
     },
+    'Task7' : {
+        'title' : '📖 Updating Variables'
+    },
 }
 
 export default content

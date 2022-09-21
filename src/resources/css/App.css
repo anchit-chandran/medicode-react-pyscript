@@ -42,7 +42,6 @@ p {
 
 section {
   background-color: #dddcec;
-
 }
 
 section:hover {
@@ -63,9 +62,26 @@ li {
   overflow-y: hidden;
 }
 
-
-#output1 {
+.replOutput {
   background-color: #c6faba;
+  padding-left: 0.3rem;
+}
+
+.replOutput :not(:nth-last-child(2)) {
+  display: none;
+}
+
+.replOutput :nth-last-child(2) {
+  display: contents !important;
+}
+
+
+.tasksRow > div:nth-child(2) > div > py-repl:not(first-child) {
+  display: none;
+}
+
+.tasksRow > div:nth-child(2) > div > py-repl:first-child {
+  display: contents;
 }
 
 #err-div {
@@ -80,7 +96,7 @@ li {
 }
 
 code {
-  color:#0309A9;
+  color: #0309A9;
 }
 
 .explanationRow {
@@ -89,5 +105,18 @@ code {
 
 .diagBody {
   background-color: #4a0013;
+  color: white;
+}
+
+.footer {
+  background-color: var(--main-red);
+  overflow: hidden;
+}
+
+.footer div:not(:last-child) {
+  display: none;
+}
+
+.replError {
   color: white;
 }
