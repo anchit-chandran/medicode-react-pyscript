@@ -46,6 +46,7 @@ section {
 
 section:hover {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #e0deff;
 }
 
 li {
@@ -119,4 +120,32 @@ code {
 
 .replError {
   color: white;
+}
+
+/* SYNTAX HIGHLIGHTING STYLING FOR REPL CODE */
+
+/* REPL BACKGROUND COLOR */
+.cm-content, .cm-activeLine {
+  background-color: #282a36 !important;
+  color: white;
+}
+
+/* COMMENTS */
+.ͼl {
+  color: #6aa94f;
+}
+
+/* KEYWORDS */
+.ͼa, .ͼb {
+  color: #82c6ff;
+}
+
+/* ints */
+.ͼc {
+  color: #b5cea8;
+}
+
+/* STRINGS */
+.ͼd, .ͼe {
+  color : #f1fa8c;
 }

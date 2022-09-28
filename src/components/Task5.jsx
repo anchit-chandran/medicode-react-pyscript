@@ -22,7 +22,7 @@ const Task5 = ({ replNum, task }) => {
 
                 </div>
             </div >
-            <div className="row tasksRow">
+            <div className="row tasksRow px-0 px-lg-1">
                 <div className="col-lg-6">
                     <h5>✍ Task 1 - Creating your own variables</h5>
                     <ol>
@@ -49,7 +49,7 @@ print(age, name)`}
 
                     </details>
                 </div>
-                <div className="col">
+                <div className="col px-0 px-lg-1">
                     <PyReplComponent replNum={replNum}></PyReplComponent>
                 </div>
             </div>

@@ -10,7 +10,7 @@ const Task1 = ({ replNum, task }) => {
                 <div class="col">
                 </div >
             </div >
-            <div className="row tasksRow">
+            <div className="row tasksRow px-0 px-lg-1">
                 <div className="col-lg-6">
                     <h5>✍ Task 1</h5>
                     <ol>
@@ -18,7 +18,7 @@ const Task1 = ({ replNum, task }) => {
                         <ul><li><p>You will get an error. Don't worry, errors in programming are everywhere and you should get comfortable seeing them.</p></li></ul>
                     </ol>
                 </div>
-                <div className="col">
+                <div className="col px-0 px-lg-1">
                     <PyReplComponent replNum={replNum}></PyReplComponent>
                 </div>
             </div>

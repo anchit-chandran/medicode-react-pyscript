@@ -31,7 +31,7 @@ print('This code will run!')
 
                 </div>
             </div >
-            <div className="row tasksRow">
+            <div className="row tasksRow px-0 px-lg-1">
                 <div className="col-lg-6">
                     <h5>✍ Task 1</h5>
                     <p>The code below doesn't work. Let&#39;s fix it:</p>
@@ -70,7 +70,7 @@ print("Well done! You're beginning to learn how to properly write code!")`
                         </SyntaxHighlighter>
                     </details>
                 </div>
-                <div className="col">
+                <div className="col px-0 px-lg-1">
                     <PyReplComponent replNum={replNum}></PyReplComponent>
                 </div>
             </div>

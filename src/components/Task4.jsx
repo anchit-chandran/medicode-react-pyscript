@@ -29,7 +29,7 @@ const Task4 = ({ replNum, task }) => {
                     </SyntaxHighlighter>
                 </div>
             </div >
-            <div className="row tasksRow">
+            <div className="row tasksRow px-0 px-lg-1">
                 <div className="col-lg-6">
                     <h5>✍ Task 1</h5>
                     <ol>
@@ -50,7 +50,7 @@ print(39-50+12*39/(5**4))`}
                         </SyntaxHighlighter>
                     </details>
                 </div>
-                <div className="col">
+                <div className="col px-0 px-lg-1">
                     <PyReplComponent replNum={replNum}></PyReplComponent>
                 </div>
             </div>

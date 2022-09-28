@@ -43,7 +43,7 @@ const Task6 = ({ replNum, task }) => {
 
                 </div>
             </div >
-            <div className="row tasksRow">
+            <div className="row tasksRow px-0 px-lg-1">
                 <div className="col-lg-6">
                     <h5>✍ Task 1 - Fix these variable names</h5>
                     <ol>
@@ -86,7 +86,7 @@ print(gmc)`}
 
                     </details>
                 </div>
-                <div className="col">
+                <div className="col px-0 px-lg-1">
                     <PyReplComponent replNum={replNum}></PyReplComponent>
                 </div>
             </div>

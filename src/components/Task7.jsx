@@ -33,7 +33,7 @@ print(patient_name)
                     </ol>
                 </div>
             </div >
-            <div className="row tasksRow">
+            <div className="row tasksRow px-0 px-lg-1">
                 <div className="col-lg-6">
                     <h5>✍ Task 1 - Update these variables</h5>
                     <ol>
@@ -68,7 +68,7 @@ print(age_2)
 
                     </details>
                 </div>
-                <div className="col">
+                <div className="col px-0 px-lg-1">
                     <div>
                         <py-repl
                             id={`my-repl7-1`}
@@ -80,7 +80,7 @@ print(age_2)
                     </div>
                 </div>
             </div >
-            <div className="row tasksRow py-4">
+            <div className="row tasksRow py-4 px-0 px-lg-1">
                 <div className="col-lg-6">
                     <h5>✍ Task 2 - Variables and maths</h5>
                     <p>We can use the variable names instead of numbers themselves.</p>
@@ -112,7 +112,7 @@ print(age)
 
                     </details>
                 </div>
-                <div className="col">
+                <div className="col px-0 px-lg-1">
                     <div>
                         <py-repl
                             id={`my-repl7-2`}
@@ -124,7 +124,7 @@ print(age)
                     </div>
                 </div>
             </div >
-            <div className="row tasksRow">
+            <div className="row tasksRow px-0 px-lg-1">
                 <div className="col-lg-6">
                     <h5>✍ Task 3 - Variables and text</h5>
                     <p>We can use variables to combine different text (or <em>strings</em>) together.</p>
@@ -154,7 +154,7 @@ print("My name is " + first_name + last_name)
 
                     </details>
                 </div>
-                <div className="col">
+                <div className="col px-0 px-lg-1">
                     <div>
                         <py-repl
                             id={`my-repl7-3`}
