@@ -50,7 +50,7 @@ print(39-50+12*39/(5**4))`}
                         </SyntaxHighlighter>
                     </details>
                 </div>
-                <div className="col px-0 px-lg-1">
+                <div className="col-12 col-md-6 px-0 px-lg-1">
                     <PyReplComponent replNum={replNum}></PyReplComponent>
                 </div>
             </div>

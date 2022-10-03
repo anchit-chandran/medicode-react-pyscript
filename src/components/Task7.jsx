@@ -68,16 +68,8 @@ print(age_2)
 
                     </details>
                 </div>
-                <div className="col px-0 px-lg-1">
-                    <div>
-                        <py-repl
-                            id={`my-repl7-1`}
-                            auto-generate='false'
-                            std-out={`output7-1`}
-                            std-err={`err-div`}>
-                        </py-repl>
-                        <div id={`output7-1`} class="replOutput"></div>
-                    </div>
+                <div className="col-12 col-md-6 px-0 px-lg-1">
+                    <PyReplComponent replNum={replNum}></PyReplComponent>
                 </div>
             </div >
             <div className="row tasksRow py-4 px-0 px-lg-1">
@@ -112,16 +104,8 @@ print(age)
 
                     </details>
                 </div>
-                <div className="col px-0 px-lg-1">
-                    <div>
-                        <py-repl
-                            id={`my-repl7-2`}
-                            auto-generate='false'
-                            std-out={`output7-2`}
-                            std-err={`err-div`}>
-                        </py-repl>
-                        <div id={`output7-2`} class="replOutput"></div>
-                    </div>
+                <div className="col-12 col-md-6 px-0 px-lg-1">
+                    <PyReplComponent replNum={replNum}></PyReplComponent>
                 </div>
             </div >
             <div className="row tasksRow px-0 px-lg-1">
@@ -129,9 +113,9 @@ print(age)
                     <h5>✍ Task 3 - Variables and text</h5>
                     <p>We can use variables to combine different text (or <em>strings</em>) together.</p>
                     <ol>
-                        <li><p><input type="checkbox"/> Define a variable <code>first_name</code> and assign it your first name surrounded by single (<code>&#39; &#39;</code>) or double (<code>&quot; &quot;</code>) quotes.</p></li>
-                        <li><p><input type="checkbox"/> Define a variable <code>last_name</code> in a similar way.</p></li>
-                        <li><p><input type="checkbox"/> Print the following exactly: <code>print(&quot;My name is &quot; + first_name + last_name</code>)</p></li>
+                        <li><p><input type="checkbox" /> Define a variable <code>first_name</code> and assign it your first name surrounded by single (<code>&#39; &#39;</code>) or double (<code>&quot; &quot;</code>) quotes.</p></li>
+                        <li><p><input type="checkbox" /> Define a variable <code>last_name</code> in a similar way.</p></li>
+                        <li><p><input type="checkbox" /> Print the following exactly: <code>print(&quot;My name is &quot; + first_name + last_name</code>)</p></li>
                     </ol>
 
 
@@ -154,16 +138,8 @@ print("My name is " + first_name + last_name)
 
                     </details>
                 </div>
-                <div className="col px-0 px-lg-1">
-                    <div>
-                        <py-repl
-                            id={`my-repl7-3`}
-                            auto-generate='false'
-                            std-out={`output7-3`}
-                            std-err={`err-div`}>
-                        </py-repl>
-                        <div id={`output7-3`} class="replOutput"></div>
-                    </div>
+                <div className="col-12 col-md-6 px-0 px-lg-1">
+                    <PyReplComponent replNum={replNum}></PyReplComponent>
                 </div>
             </div >
         </>

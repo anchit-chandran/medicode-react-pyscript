@@ -1,8 +1,13 @@
 import React from 'react'
+import { useEffect } from 'react'
 
 const Cells = ({ toShow, sectionName, content }) => {
 
-    // console.log(content)
+    let outputNum = 0;
+
+    useEffect(() => {
+        console.log('updated!!!!!!')
+    })
 
     return (
         <section class={`${sectionName} cell p-lg-4 p-2 m-lg-3 my-3 mx-1 rounded-5 row`}>

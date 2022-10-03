@@ -51,7 +51,7 @@ const Task2 = ({ replNum, task }) => {
 
                     </details>
                 </div>
-                <div className="col px-0 px-lg-1">
+                <div className="col-12 col-md-6 px-0 px-lg-1">
                     <PyReplComponent replNum={replNum}></PyReplComponent>
                 </div>
             </div>
