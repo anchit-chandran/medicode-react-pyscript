@@ -63,19 +63,6 @@ li {
   overflow-y: hidden;
 }
 
-.replOutput {
-  background-color: #c6faba;
-  padding-left: 0.3rem;
-}
-
-.replOutput :not(:nth-last-child(2)) {
-  display: none;
-}
-
-.replOutput :nth-last-child(2) {
-  display: contents !important;
-}
-
 
 .tasksRow > div:nth-child(2) > div > py-repl:not(first-child) {
   display: none;
@@ -118,35 +105,5 @@ code {
   display: none;
 }
 
-.replError {
-  color: white;
-}
 
-/* SYNTAX HIGHLIGHTING STYLING FOR REPL CODE */
 
-/* REPL BACKGROUND COLOR */
-.cm-content, .cm-activeLine {
-  background-color: #282a36 !important;
-  color: white;
-  caret-color: white !important;
-}
-
-/* COMMENTS */
-.ͼl {
-  color: #6aa94f;
-}
-
-/* KEYWORDS */
-.ͼa, .ͼb {
-  color: #82c6ff;
-}
-
-/* ints */
-.ͼc {
-  color: #b5cea8;
-}
-
-/* STRINGS */
-.ͼd, .ͼe {
-  color : #f1fa8c;
-}
